@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
+  <diagram name="Peticionamento Externo" id="9C6MD8WREGydjGPoxmb0">
+    <mxGraphModel dx="1678" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-5" parent="1" style="swimlane;startSize=23;" value="Unidade de Taxação GSST" vertex="1">
+          <mxGeometry height="190" width="1630" y="-70" as="geometry">
+            <mxRectangle height="30" width="190" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-8" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Conferência no SISAP" vertex="1">
+          <mxGeometry height="60" width="200" x="340" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-9" parent="xeX3HG-3rl5xgHZe1weT-5" style="rhombus" value="Infos corretas?" vertex="1">
+          <mxGeometry height="80" width="100" x="580" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-10" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Lançar infos nos gabaritos (Word)" vertex="1">
+          <mxGeometry height="60" width="220" x="750" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-11" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Inserir documento no SEI" vertex="1">
+          <mxGeometry height="60" width="200" x="1030" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-110" edge="1" parent="xeX3HG-3rl5xgHZe1weT-5" source="xeX3HG-3rl5xgHZe1weT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xeX3HG-3rl5xgHZe1weT-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-27" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Compila gabaritos e envio para publicação" vertex="1">
+          <mxGeometry height="60" width="230" x="1280" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-28" parent="xeX3HG-3rl5xgHZe1weT-5" style="ellipse" value="Fim" vertex="1">
+          <mxGeometry height="40" width="40" x="1560" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-109" edge="1" parent="xeX3HG-3rl5xgHZe1weT-5" source="xeX3HG-3rl5xgHZe1weT-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xeX3HG-3rl5xgHZe1weT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-108" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Recebimento BIM" vertex="1">
+          <mxGeometry height="60" width="160" x="110" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-14" parent="1" style="swimlane" value="Gestor GSST" vertex="1">
+          <mxGeometry height="210" width="1630" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-15" parent="xeX3HG-3rl5xgHZe1weT-14" style="rounded=1" value="Assinatura gestor GSST via SEI" vertex="1">
+          <mxGeometry height="60" width="180" x="1040" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-19" edge="1" parent="1" source="xeX3HG-3rl5xgHZe1weT-8" target="xeX3HG-3rl5xgHZe1weT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-22" edge="1" parent="1" source="xeX3HG-3rl5xgHZe1weT-9" target="xeX3HG-3rl5xgHZe1weT-10" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-23" edge="1" parent="1" source="xeX3HG-3rl5xgHZe1weT-10" target="xeX3HG-3rl5xgHZe1weT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-24" edge="1" parent="1" source="xeX3HG-3rl5xgHZe1weT-11" target="xeX3HG-3rl5xgHZe1weT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-25" edge="1" parent="1" source="xeX3HG-3rl5xgHZe1weT-15" style="entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="xeX3HG-3rl5xgHZe1weT-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560.0276434133807" y="521.0511766624536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-86" parent="1" style="swimlane;startSize=23;" value="Servidor" vertex="1">
+          <mxGeometry height="260" width="1630" y="-530" as="geometry">
+            <mxRectangle height="30" width="190" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-87" parent="xeX3HG-3rl5xgHZe1weT-86" style="ellipse" value="Início" vertex="1">
+          <mxGeometry height="40" width="40" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-88" parent="xeX3HG-3rl5xgHZe1weT-86" style="rounded=1" value="Preenchimento BIM (papel)" vertex="1">
+          <mxGeometry height="60" width="160" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-103" edge="1" parent="xeX3HG-3rl5xgHZe1weT-86" source="xeX3HG-3rl5xgHZe1weT-87" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xeX3HG-3rl5xgHZe1weT-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="200" as="sourcePoint" />
+            <mxPoint x="270" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-101" parent="1" style="swimlane" value="Central de Perícia Médica" vertex="1">
+          <mxGeometry height="200" width="1630" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-102" parent="xeX3HG-3rl5xgHZe1weT-101" style="rounded=1" value="Lançamento infos BIM no SISAP" vertex="1">
+          <mxGeometry height="60" width="190" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-13" parent="xeX3HG-3rl5xgHZe1weT-101" style="rounded=1" value="Retificar infos no SISAP" vertex="1">
+          <mxGeometry height="60" width="190" x="345" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-107" edge="1" parent="1" source="xeX3HG-3rl5xgHZe1weT-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xeX3HG-3rl5xgHZe1weT-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-21" edge="1" parent="1" source="xeX3HG-3rl5xgHZe1weT-13" target="xeX3HG-3rl5xgHZe1weT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-20" edge="1" parent="1" source="xeX3HG-3rl5xgHZe1weT-9" target="xeX3HG-3rl5xgHZe1weT-13" value="Não">
+          <mxGeometry relative="1" x="-0.5052" y="-8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-29" edge="1" parent="1" source="xeX3HG-3rl5xgHZe1weT-13" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xeX3HG-3rl5xgHZe1weT-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="501.5" y="216" as="sourcePoint" />
+            <mxPoint x="498.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
