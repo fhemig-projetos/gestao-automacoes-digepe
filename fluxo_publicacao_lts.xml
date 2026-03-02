@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xeX3HG-3rl5xgHZe1weT-5" parent="1" style="swimlane;startSize=23;" value="Unidade de Taxação GSST" vertex="1">
-          <mxGeometry height="190" width="1630" y="-70" as="geometry">
+          <mxGeometry height="190" width="1810" y="-70" as="geometry">
             <mxRectangle height="30" width="190" y="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -21,14 +21,14 @@
         <mxCell id="xeX3HG-3rl5xgHZe1weT-11" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Inserir documento no SEI" vertex="1">
           <mxGeometry height="60" width="200" x="1030" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="xeX3HG-3rl5xgHZe1weT-110" edge="1" parent="xeX3HG-3rl5xgHZe1weT-5" source="xeX3HG-3rl5xgHZe1weT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xeX3HG-3rl5xgHZe1weT-28">
+        <mxCell id="dE0BBcybXKKgaCewMgwI-3" edge="1" parent="xeX3HG-3rl5xgHZe1weT-5" source="xeX3HG-3rl5xgHZe1weT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dE0BBcybXKKgaCewMgwI-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xeX3HG-3rl5xgHZe1weT-27" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Compila gabaritos e envio para publicação" vertex="1">
+        <mxCell id="xeX3HG-3rl5xgHZe1weT-27" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Compila gabaritos e gera arquivo .rtf" vertex="1">
           <mxGeometry height="60" width="230" x="1280" y="90" as="geometry" />
         </mxCell>
         <mxCell id="xeX3HG-3rl5xgHZe1weT-28" parent="xeX3HG-3rl5xgHZe1weT-5" style="ellipse" value="Fim" vertex="1">
-          <mxGeometry height="40" width="40" x="1560" y="100" as="geometry" />
+          <mxGeometry height="40" width="40" x="1750" y="100" as="geometry" />
         </mxCell>
         <mxCell id="xeX3HG-3rl5xgHZe1weT-109" edge="1" parent="xeX3HG-3rl5xgHZe1weT-5" source="xeX3HG-3rl5xgHZe1weT-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xeX3HG-3rl5xgHZe1weT-8">
           <mxGeometry relative="1" as="geometry" />
@@ -36,8 +36,14 @@
         <mxCell id="xeX3HG-3rl5xgHZe1weT-108" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Recebimento BIM" vertex="1">
           <mxGeometry height="60" width="160" x="110" y="90" as="geometry" />
         </mxCell>
+        <mxCell id="dE0BBcybXKKgaCewMgwI-4" edge="1" parent="xeX3HG-3rl5xgHZe1weT-5" source="dE0BBcybXKKgaCewMgwI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xeX3HG-3rl5xgHZe1weT-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE0BBcybXKKgaCewMgwI-2" parent="xeX3HG-3rl5xgHZe1weT-5" style="rounded=1" value="Envio para a publicação" vertex="1">
+          <mxGeometry height="60" width="150" x="1570" y="90" as="geometry" />
+        </mxCell>
         <mxCell id="xeX3HG-3rl5xgHZe1weT-14" parent="1" style="swimlane" value="Gestor GSST" vertex="1">
-          <mxGeometry height="210" width="1630" y="120" as="geometry" />
+          <mxGeometry height="210" width="1810" y="120" as="geometry" />
         </mxCell>
         <mxCell id="xeX3HG-3rl5xgHZe1weT-15" parent="xeX3HG-3rl5xgHZe1weT-14" style="rounded=1" value="Assinatura gestor GSST via SEI" vertex="1">
           <mxGeometry height="60" width="180" x="1040" y="60" as="geometry" />
@@ -60,7 +66,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xeX3HG-3rl5xgHZe1weT-86" parent="1" style="swimlane;startSize=23;" value="Servidor" vertex="1">
-          <mxGeometry height="260" width="1630" y="-530" as="geometry">
+          <mxGeometry height="260" width="1810" y="-530" as="geometry">
             <mxRectangle height="30" width="190" y="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -77,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xeX3HG-3rl5xgHZe1weT-101" parent="1" style="swimlane" value="Central de Perícia Médica" vertex="1">
-          <mxGeometry height="200" width="1630" y="-270" as="geometry" />
+          <mxGeometry height="200" width="1810" y="-270" as="geometry" />
         </mxCell>
         <mxCell id="xeX3HG-3rl5xgHZe1weT-102" parent="xeX3HG-3rl5xgHZe1weT-101" style="rounded=1" value="Lançamento infos BIM no SISAP" vertex="1">
           <mxGeometry height="60" width="190" x="95" y="70" as="geometry" />
